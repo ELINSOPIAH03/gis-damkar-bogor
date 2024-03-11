@@ -33,7 +33,7 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="nav-item dropdown header-profile">
+                    <!-- <li class="nav-item dropdown header-profile">
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
                             <img src="images/profile/pic1.jpg" width="20" alt="">
                             <div class="header-info">
@@ -65,7 +65,7 @@
                                 <span class="ml-2">Logout </span>
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>

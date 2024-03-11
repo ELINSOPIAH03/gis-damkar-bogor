@@ -4,8 +4,6 @@ import "./map";
 import(/* webpackChunkName: "baseLayers" */ "./baseLayers");
 import(/* webpackChunkName: "baseLayerSwitcher" */ "./baseLayerSwitcher");
 
-import(/* webpackChunkName: "baseLayerSwitcher" */ "./layer/kabBogor");
-
 import(/* webpackChunkName: "zoom" */ "./maptools/zoominout");
 import(/* webpackChunkName: "infodetail" */ "./maptools/infodetail");
 import(/* webpackChunkName: "backToExtent" */ "./maptools/backToExtent");

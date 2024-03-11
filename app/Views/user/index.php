@@ -9,11 +9,11 @@
 
 <div id="main-wrapper">
 
-    <!-- <?php echo view('partials/logo'); ?> -->
+    <?php echo view('partials/logo'); ?>
 
-    <!-- <?php echo view('partials/navbar'); ?> -->
+    <?php echo view('partials/navbar'); ?>
 
-    <!-- <?php echo view('partials/sidebar'); ?> -->
+    <?php echo view('partials/sidebar'); ?>
 
     <div class="content-body">
         <!-- row -->

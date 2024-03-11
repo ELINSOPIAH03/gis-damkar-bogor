@@ -22,3 +22,6 @@ geocoder.on("addresschosen", (evt) => {
         zoom: Math.max(map.getView().getZoom(), 16),
     });
 });
+
+// const geocoderIcon = document.querySelector('.ol-geocoder .gcd-txt-glass:after');
+// geocoderIcon.style.content = 'none';
