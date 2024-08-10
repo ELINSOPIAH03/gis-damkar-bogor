@@ -27,10 +27,10 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'root',
+        'username'     => 'postgres',
         'password'     => '',
-        'database'     => 'gis_damkar_bogor',
-        'DBDriver'     => 'MySQLi',
+        'database'     => 'gis_damkar',
+        'DBDriver'     => 'postgre',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => 3306,
+        'port'         => 5432,
         'numberNative' => false,
     ];
 
@@ -50,7 +50,8 @@ class Database extends Config
      * running PHPUnit database tests.
      */
     public array $tests = [
-        'DSN'         => '',
+        // 'DSN'         => '',
+        'DSN'      => 'pgsql:host=localhost;port=5432;dbname=database_name',
         'hostname'    => '127.0.0.1',
         'username'    => '',
         'password'    => '',

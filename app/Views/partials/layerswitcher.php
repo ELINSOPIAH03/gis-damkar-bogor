@@ -9,8 +9,7 @@
                     <li>
                         <div class="timeline-panel">
                             <div class="form-check custom-checkbox checkbox-success check-lg me-3">
-                                <input type="checkbox" class="form-check-input" id="customCheckBoxAdmKabBgr" required="">
-                                <label class="form-check-label" for="customCheckBox1"></label>
+                                <input type="checkbox" class="form-check-input" id="customCheckBoxAdmKabBgr">
                             </div>
                             <div class="media-body">
                                 <small class="text-muted">Batas Administrasi Kab Bogor</small>
@@ -20,8 +19,7 @@
                     <li>
                         <div class="timeline-panel">
                             <div class="form-check custom-checkbox checkbox-success check-lg me-3">
-                                <input type="checkbox" class="form-check-input" id="customCheckBoxAdmKotBgr" required="">
-                                <label class="form-check-label" for="customCheckBox1"></label>
+                                <input type="checkbox" class="form-check-input" id="customCheckBoxAdmKotBgr">
                             </div>
                             <div class="media-body">
                                 <small class="text-muted">Batas Administrasi Kota Bogor</small>
@@ -31,8 +29,7 @@
                     <li>
                         <div class="timeline-panel">
                             <div class="form-check custom-checkbox checkbox-success check-lg me-3">
-                                <input type="checkbox" class="form-check-input" id="customCheckBoxScoreKabBgr" required="">
-                                <label class="form-check-label" for="customCheckBox1"></label>
+                                <input type="checkbox" class="form-check-input" id="customCheckBoxScoreKabBgr">
                             </div>
                             <div class="media-body">
                                 <small class="text-muted">Rawan Kebakaran Kab Bogor</small>
@@ -42,8 +39,7 @@
                     <li>
                         <div class="timeline-panel">
                             <div class="form-check custom-checkbox checkbox-success check-lg me-3">
-                                <input type="checkbox" class="form-check-input" id="customCheckBoxScoreKotBgr" required="">
-                                <label class="form-check-label" for="customCheckBox1"></label>
+                                <input type="checkbox" class="form-check-input" id="customCheckBoxScoreKotBgr">
                             </div>
                             <div class="media-body">
                                 <small class="text-muted">Rawan Kebakaran Kota Bogor</small>
@@ -53,11 +49,30 @@
                     <li>
                         <div class="timeline-panel">
                             <div class="form-check custom-checkbox checkbox-success check-lg me-3">
-                                <input type="checkbox" class="form-check-input" id="customPoiDamkar" required="">
-                                <label class="form-check-label" for="customCheckBox1"></label>
+                                <input type="checkbox" class="form-check-input" id="customPoiDamkar">
                             </div>
                             <div class="media-body">
                                 <small class="text-muted">POI Damkar Bogor</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel">
+                            <div class="form-check custom-checkbox checkbox-success check-lg me-3">
+                                <input type="checkbox" class="form-check-input" id="customCheckBoxsungaiKabupaten">
+                            </div>
+                            <div class="media-body">
+                                <small class="text-muted">Sungai Kabupaten Bogor</small>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel">
+                            <div class="form-check custom-checkbox checkbox-success check-lg me-3">
+                                <input type="checkbox" class="form-check-input" id="customCheckBoxsungaiKota">
+                            </div>
+                            <div class="media-body">
+                                <small class="text-muted">Sungai Kota Bogor</small>
                             </div>
                         </div>
                     </li>

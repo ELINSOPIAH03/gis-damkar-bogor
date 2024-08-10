@@ -24,7 +24,7 @@
   <title>Pemetaan Damkar</title>
 
   <!-- FAVICONS ICON -->
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="<?= base_url('assets/images/favicon.png')?>">
 
   <link href="<?= base_url('assets/vendor/jqvmap/css/jqvmap.min.css') ?>" rel="stylesheet">
   <link rel="stylesheet" href="<?= base_url('assets/vendor/chartist/css/chartist.min.css') ?>">
@@ -54,6 +54,11 @@
       bottom: 0;
       width: 100%;
       left: 0;
+    }
+    .featureInfo{
+      /* display: flex;
+      flex-direction: column; */
+      background: white
     }
   </style>
 </head>

@@ -6,6 +6,7 @@ import(/* webpackChunkName: "baseLayerSwitcher" */ "./baseLayerSwitcher");
 
 import(/* webpackChunkName: "zoom" */ "./maptools/zoominout");
 import(/* webpackChunkName: "infodetail" */ "./maptools/infodetail");
+// import(/* webpackChunkName: "infodetail" */ "./maptools/scale");
 import(/* webpackChunkName: "backToExtent" */ "./maptools/backToExtent");
 import(/* webpackChunkName: "geoLocation" */ "./maptools/geoLocation");
 import(/* webpackChunkName: "measure" */ "./maptools/measure");

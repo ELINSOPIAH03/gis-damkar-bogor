@@ -13004,9 +13004,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     .deznav .menu-tabs li a svg {
       fill: rgba(255, 255, 255, 0.1);
       width: 22px; }
-    .deznav .menu-tabs li a.active {
+    /* .deznav .menu-tabs li a.active {
       background: #fff;
-      color: #3a7afe; }
+      color: #3a7afe; } */
       .deznav .menu-tabs li a.active svg {
         fill: rgba(58, 122, 254, 0.1); }
       [data-theme-version="dark"] .deznav .menu-tabs li a.active {
@@ -23104,7 +23104,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 .photo-content {
   position: relative; }
   .photo-content .cover-photo {
-    background: url(../images/profile/cover.jpg);
+    background: url(../images/damkar.jpg);
     background-size: cover;
     background-position: center;
     min-height: 250px;

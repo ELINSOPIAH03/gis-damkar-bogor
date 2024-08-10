@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand">
             <div class="collapse navbar-collapse justify-content-between">
                 <div class="header-left">
-                        <!-- <div class="search_bar dropdown">
+                    <!-- <div class="search_bar dropdown">
                             <span class="search_icon p-3 c-pointer" data-bs-toggle="dropdown">
                                 <i class="mdi mdi-magnify"></i>
                             </span>
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
                             <img src="images/profile/pic1.jpg" width="20" alt="">
                             <div class="header-info">
-                                <span>Hey, <strong>Joshua</strong></span>
+                                <span>Hey, <strong>Mitchell</strong></span>
                                 <small>Business Profile</small>
                             </div>
                         </a>

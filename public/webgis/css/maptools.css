@@ -1326,3 +1326,29 @@ button svg circle {
     margin-top: 80px !important;
     left: -110% !important;
 }
+/* .map-create .overlay-card {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.map-create .ol-geocoder .gcd-txt-control {
+    height: 3.2rem !important;
+    border-radius: 10px;
+    margin-top: 80px;
+    left: -110%;
+}
+
+.map-create  .ol-geocoder .gcd-txt-glass:after{
+    content: none !important; /* Menonaktifkan konten */
+/* } */
+
+/* .map-create  .ol-geocoder .gcd-txt-search:after {
+    content: "\1F50D" !important;
+    font-size: 1em !important;
+}
+.map-create .ol-geocoder ul.gcd-txt-result{ */
+    /* margin-top: 80px !important;
+    left: -110% !important; */
+/* } */ 

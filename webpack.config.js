@@ -2,10 +2,15 @@ const path = require("path");
 
 module.exports = {
     mode: "development",
-    entry: ['./app/Views/webgis/js/main.js'], // Titik masuk aplikasi
+    // entry: ['./app/Views/webgis/js/main.js'], // Titik masuk aplikasi
+    entry: {
+        main: ['./app/Views/webgis/js/main.js'],
+        admin: ['./app/Views/webgis/js/admin.js']
+    },
     output: {
         // Konfigurasi output
-        filename: "bundle.js", // Nama file output
+        filename: "[name].bundle.js", 
+        // filename: "bundle.js", // Nama file output
         path: path.resolve(__dirname, "public/src/js"), // Direktori output
     },
     module: {

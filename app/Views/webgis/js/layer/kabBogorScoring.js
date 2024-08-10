@@ -1,15 +1,15 @@
-import Map from 'ol/Map.js';
-import OSM from 'ol/source/OSM.js';
 import TileLayer from 'ol/layer/Tile.js';
 import TileWMS from 'ol/source/TileWMS.js';
-import View from 'ol/View.js';
-import { map } from 'jquery';
 
+// import sldUrl from '../../style/scoring_kabbogor.sld';
+// const sldUrl = require('../../style/scoring_kabbogor.sld');
+
+// console.log(sldUrl);
 const scorKabBgr = new TileLayer({
     source: new TileWMS({
-        url: 'http://localhost:9000/geoserver/bogor/wms',
+        url: 'http://localhost:9000/geoserver/pemetaan/wms',
         params: {
-            'LAYERS': 'bogor:scoring_kebakaran_kab_bgr', // Nama lapisan
+            'LAYERS': 'pemetaan:adm_kab_bogor_scoring', // Nama lapisan
             'TILED': true,
             'FORMAT': 'image/png', // Format gambar
         },
@@ -18,8 +18,8 @@ const scorKabBgr = new TileLayer({
     }),
 });
 
-scorKabBgr.setZIndex(999999);
+// scorKabBgr.mergeNewParams({SLD :'http://localhost:9000/geoserver/rest/styles/kab_bogor_scor.sld' }); 
 
-// map.addLayer(layers);
+scorKabBgr.setZIndex(999999);
 
 export default scorKabBgr;

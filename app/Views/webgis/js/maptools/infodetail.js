@@ -15,7 +15,7 @@ closer.onclick = function () {
 
 let a = false;
 
-$("#info").on("click", function () {
+$("#info_biasa").on("click", function () {
   disableAllFunction($(this));
   if (!a) {
     map.on("singleclick", callbackInfo);

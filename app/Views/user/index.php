@@ -47,18 +47,27 @@
                     <div id="popup-content"></div>
                 </div>
                 <!-- end popup -->
-                <div id="popup" class="ol-popup-2"></div>
+                <!-- <div id="popup" class="ol-popup-2"></div> -->
                 <!-- list layer -->
                 <?php echo view('partials/layerswitcher'); ?>
 
 
             </div>
-
         </div>
+        
+        
     </div>
-
     <?php echo view('partials/footer'); ?>
-
+    <footer class="fixed-bottom bg-white">
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col"> -->
+                    <!-- Footer content goes here -->
+                    <div id="info" class="info mt-3 border border-0">&nbsp;</div>
+                <!-- </div>
+            </div> -->
+        </div>
+    </footer>
 
 </div>
 <?php echo view('partials/js'); ?>

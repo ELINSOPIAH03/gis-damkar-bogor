@@ -7,9 +7,9 @@ import { map } from 'jquery';
 
 const poiDamkar = new TileLayer({
     source: new TileWMS({
-        url: 'http://localhost:9000/geoserver/bogor/wms',
+        url: 'http://localhost:9000/geoserver/pemetaan/wms',
         params: {
-            'LAYERS': 'bogor:pemadam_kebakaran_poi', // Nama lapisan
+            'LAYERS': 'pemetaan:poi_damkarr_baru_bgt', // Nama lapisan
             'TILED': true,
             'FORMAT': 'image/png', // Format gambar
         },
@@ -23,3 +23,4 @@ poiDamkar.setZIndex(999999);
 // map.addLayer(layers);
 
 export default poiDamkar;
+console.log("ini poiDamkar" + poiDamkar);

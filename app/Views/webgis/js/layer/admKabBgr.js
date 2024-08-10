@@ -7,12 +7,12 @@ import { map } from 'jquery';
 
 const admKabBgr = new TileLayer({
     source: new TileWMS({
-        url: 'http://localhost:9000/geoserver/bogor/wms',
-        params: {
-            'LAYERS': 'bogor:adm_kab_bogor', // Nama lapisan
-            'TILED': true,
-            'FORMAT': 'image/png', // Format gambar
-        },
+        // url: 'http://localhost:9000/geoserver/pemetaan/wms',
+        // params: {
+        //     'LAYERS': 'pemetaan:adm_kab_bogor', // Nama lapisan
+        //     'TILED': true,
+        //     'FORMAT': 'image/png', // Format gambar
+        // },
         serverType: 'geoserver',
         transition: 0,
     }),

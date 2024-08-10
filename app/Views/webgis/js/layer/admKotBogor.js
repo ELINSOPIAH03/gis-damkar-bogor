@@ -7,9 +7,9 @@ import { map } from 'jquery';
 
 const admKotBgr = new TileLayer({
     source: new TileWMS({
-        url: 'http://localhost:9000/geoserver/bogor/wms',
+        url: 'http://localhost:9000/geoserver/pemetaan/wms',
         params: {
-            'LAYERS': 'bogor:adm_kot_bogor', // Nama lapisan
+            'LAYERS': 'pemetaan:adm_kot_bogor', // Nama lapisan
             'TILED': true,
             'FORMAT': 'image/png', // Format gambar
         },
